@@ -28,6 +28,16 @@ git merge branch_name
 git checkout your_branch_name
 
 
+git remote add origin <name of your git repo>
+
+<!-- to push into github -->
+git push -u origin <branch_name>
+
+<to update your remot repo according to the changes made in local repo>
+git push
+
+<to update your local repo according to the changes made in remote repo>
+git pull
 
 sfseger
 this is git file, this is the changes
